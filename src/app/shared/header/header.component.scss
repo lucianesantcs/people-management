@@ -1,0 +1,15 @@
+@import "includes";
+
+header {
+  border: 1px solid;
+  @include align-around;
+
+  nav {
+    @include align-between;
+    border: 1px solid;
+  }
+
+  div {
+    border: 1px solid;
+  }
+}
